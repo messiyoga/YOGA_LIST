@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To Do List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+           <div class="header">
+            <h2 style="margin:5px">To Do List</h2>
+            <input type="text" id="myInput" placeholder="READING STYLE">
+            <span onclick="newElement()" class="addBtn">Add</span>
+             </div>
+             <ul id="myUL">
+                <li>* PLAN </li><br>
+                <li>* PREPARE </li><br>
+                <li>* EXECUTE </li><br>
+                <li>* PLEASE FOLLOW </li><br>
+                <li class="checked"> DON'T FOLLOW YOU CAN'T SURIVE IN THIS WORLD</li>
+                </ul>
+        <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
